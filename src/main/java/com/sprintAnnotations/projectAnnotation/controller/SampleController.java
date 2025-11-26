@@ -11,7 +11,7 @@ public class SampleController {
     // GET API
     @GetMapping("/hello")
     public ResponseEntity<String> getHello() {
-        return new ResponseEntity<>("Hello from GET API!", HttpStatus.OK);
+        return new ResponseEntity<>("Hello from GET API! ", HttpStatus.OK);
     }
 
     // POST API
